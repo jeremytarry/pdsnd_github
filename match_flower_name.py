@@ -5,9 +5,7 @@ Spyder Editor
 This is a temporary script file.
 """
 
-# Write your code here
-
-# HINT: create a dictionary from flowers.txt
+# Creates a dictionary named 'flowers_dict' from the flowers.txt file.
 
 fh = open('flowers.txt')
 
@@ -17,7 +15,3 @@ for line in fh:
     flower_dict[words[0]] = words[1]
 
 print(flowers_dict)
-# HINT: create a function to ask for user's first and last name
-
-
-# print the desired output
