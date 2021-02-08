@@ -8,6 +8,12 @@ Udacity Bike Share Python Assessment Task
 This project was created as part of an assessment task for the final Udacity Introduction to Python course.
 The project makes use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington.
 
+### Requirements
+To run the code in this project, you will need:
+	Python 3
+	NumPy
+	pandas 
+
 ### Files used
 Files included in this repo include:
 	bikeshare.py
