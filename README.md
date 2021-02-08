@@ -1,15 +1,23 @@
 ### Date created
-Include the date you created this project and README file.
+Monday 8-Feb-2021.
 
 ### Project Title
-Replace the Project Title
+Udacity Bike Share Python Assessment Task
 
 ### Description
-Describe what your project is about and what it does
+This project was created as part of an assessment task for the final Udacity Introduction to Python course.
 
 ### Files used
-Include the files used
+Files included in this repo include:
+	bikeshare.py
+	flowers.txt
+	match_flower_name.py
+
+The data files are not included in this repo. These are:
+	chicago.csv
+	new_york_city.csv
+	washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The base program details and data files are property of Udacity.
 
