@@ -21,7 +21,7 @@ def get_filters():
     day_dict = {1: 'monday', 2: 'tuesday', 3: 'wednesday', 4: 'thursday', 5: 'friday', 6: 'saturday', 7: 'sunday', 8: 'all'}
 
     print('Hello! Let\'s explore some US bikeshare data!')
-    # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # Gets user input for city using numercial input.
     while True:
         try:
             city_num = int(input('Enter a number corresponding to the desired city: \n1. Chigago \n2. New York City \n3. Washington \nInput: '))
@@ -32,7 +32,7 @@ def get_filters():
         except:
             print('That is not a valid entry!')
     print('City number input: ', city_num)
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # Gets user input for the month using numercial input.
     while True:
         try:
             month_num = int(input('Enter a number corresponding to the desired month: \n1. January \n2. February \n3. March \n4. April \n5. May \n6. June \n7. All Months \nInput: '))
@@ -44,7 +44,7 @@ def get_filters():
             print('That is not a valid entry!')
     print('Month number input: ', month_num)
 
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    ## Gets user input for the day of the week using numercial input.
     while True:
         try:
             day_num = int(input('Enter a number corresponding to the desired day of week: \n1. Monday \n2. Tuesday \n3. Wednesday \n4. Thursday \n5. Friday \n6. Saturday \n7. Sunday \n8. All Days \nInput: '))
@@ -59,6 +59,8 @@ def get_filters():
     city = city_dict[city_num]
     month = month_dict[month_num]
     day = day_dict[day_num]
+    
+    # Prints summary of all three user input values.
     
     print()
     print('City selection: ', city)
